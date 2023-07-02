@@ -1,1 +1,1 @@
-# Megan-Boyer-SIP
+Welcome! This repo acts as a hosted site to contain and display all SIP311 (Senior Innovation Project) documentation and progress made at the University of Advancing Technology. This site is hard-coded using HTML, CSS, and JavaScript.
