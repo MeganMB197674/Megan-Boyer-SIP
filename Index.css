@@ -1,0 +1,92 @@
+/*Megan Boyer*/
+
+/*Declare font rules*/
+@font-face {
+    font-family: OpenSans;
+    src: url(Fonts/OpenSans-Regular.ttf);
+}
+
+/*Declare font rules*/
+@font-face {
+    font-family: Belanosima;
+    src: url(Fonts/Belanosima-Regular.ttf);
+}
+
+/*Styles applied to entire site*/
+html{
+    background-color: black;
+    color: white;
+}
+
+/*Styles for navigation container, intro statement, and header 2 elements*/
+#pageNavigation, #Intro, h2{
+    font-family: Belanosima;
+}
+
+/*Styles for paragraph text*/
+p{
+    font-family: OpenSans;
+    /*Lines 30 & 31 match formatting for respective headers*/
+    margin-left: 5%;
+    width: 50%;
+
+}
+
+/*Styles for page navigation container only*/
+#pageNavigation{
+    /*fix header to be sticky at top of screen*/
+    position: fixed; 
+    padding-bottom: 10px;
+    /*Set absolutely positioned margins*/
+    bottom: 50; 
+    top: 0;
+    right: 0;
+    left: 0;
+    /*Set the height to make the nav menu thicker*/
+    height: 40px;
+    /*Align links to site sections to the center of the page*/
+    text-align: center;
+    /*Add a navigation menu border*/
+    border: 3px white groove;
+    /*Remove border sides*/
+    border-left: none;
+    border-right: none;
+    /*Set linear gradient background for nav menu div*/
+    background-image: -webkit-radial-gradient(rgb(3, 156, 173), black);
+}
+
+/*Styles for links/anchors*/
+a{
+    /*Display links as inline-blocks so that padding may be applied*/
+    display: inline-block;
+    /*Remove underlines*/
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    /*Separate navigation links*/
+    margin-right: 75px;
+    /*Add padding to center links vertically within the nav menu box*/
+    margin-top: 15px;
+}
+
+#Intro{
+    margin-top: 75px;
+    text-align: center;
+}
+
+/*Styling for the h2 element with id 'projectsAndSkills*/
+#projectsAndSkillsHeader{
+    margin-left: 45%;
+}
+
+#projectsAndSkillsP{
+    margin-left: 45%;
+}
+
+h2{
+    margin-left: 5%;
+    border-bottom: 3px white groove;
+    width: 50%;
+    /*Create space above each h2 element*/
+    margin-top: 5%;
+}
