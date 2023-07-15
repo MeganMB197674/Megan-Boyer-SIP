@@ -3,13 +3,13 @@
 /*Declare font rules*/
 @font-face {
     font-family: OpenSans;
-    src: url(Fonts/OpenSans-Regular.ttf);
+    src: url(OpenSans-Regular.ttf);
 }
 
 /*Declare font rules*/
 @font-face {
     font-family: Belanosima;
-    src: url(Fonts/Belanosima-Regular.ttf);
+    src: url(Belanosima-Regular.ttf);
 }
 
 /*Styles applied to entire site*/
