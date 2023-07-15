@@ -1,15 +1,15 @@
-/*Megan Boyer*/
+/*Megan Boyer - Home page styles (Index.html)*/
 
 /*Declare font rules*/
 @font-face {
     font-family: OpenSans;
-    src: url(OpenSans-Regular.ttf);
+    src: url(Fonts/OpenSans-Regular.ttf);
 }
 
 /*Declare font rules*/
 @font-face {
     font-family: Belanosima;
-    src: url(Belanosima-Regular.ttf);
+    src: url(Fonts/Belanosima-Regular.ttf);
 }
 
 /*Styles applied to entire site*/
@@ -44,7 +44,7 @@ p{
     left: 0;
     /*Set the height to make the nav menu thicker*/
     height: 40px;
-    /*Align links to site sections to the center of the page*/
+    /*Align links to site sections to the center of the container*/
     text-align: center;
     /*Add a navigation menu border*/
     border: 3px white groove;
@@ -75,11 +75,7 @@ a{
 }
 
 /*Styling for the h2 element with id 'projectsAndSkills*/
-#projectsAndSkillsHeader{
-    margin-left: 45%;
-}
-
-#projectsAndSkillsP{
+#projectsAndSkillsHeader, #projectsAndSkillsP{
     margin-left: 45%;
 }
 
@@ -89,4 +85,105 @@ h2{
     width: 50%;
     /*Create space above each h2 element*/
     margin-top: 5%;
+}
+
+/*Styling for 'about me' section image*/
+#aboutImage{
+    width: 20%;
+    height: 20%;
+    border: 2px white groove;
+    border-radius: 10px;
+    /*Move image to the very left side of the screen*/
+    float: left;
+    /*Move image 5% to the right to align it with the 'about me' h2 element*/
+    margin-left: 5%;
+}
+
+#aboutP{
+    display:inline-block;
+    /*Move the text 10px right, create space between text and 'about me' image*/
+    margin-left: 10px;
+    margin-top: 0;
+    width: 29%;
+    text-align: left;
+}
+
+/*Styling for projects and skills container*/
+#projectsAndSkills{
+    margin-top: 175px;
+    /*Create space after the projects and skills container so footer does not cover content*/
+    margin-bottom: 100px;
+}
+
+footer{
+    /*Fix footer to bottom of page*/
+    position: fixed;
+    /*Fix footer to bottom of screen*/
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    border: 3px solid white; 
+    /*Remove border on sides*/
+    border-right: none;
+    border-left: none;
+    background-image: -webkit-radial-gradient(rgb(3, 156, 173), black);
+    font-family: Belanosima;
+    /*Align contact info to center of footer*/
+    text-align: center;
+    /*Move text within footer away from the top border*/
+    padding-top: 20px;
+}
+
+#contact, #resume, h4{
+    font-size:20px;
+    /*Make h4 in footer inline, Make contact methods sit next to one another using inline*/
+    display: inline;
+}
+
+h4{
+    font-weight: lighter;
+}
+
+/*SIP page styles*/
+
+iframe{
+    width: 30%;
+    height: 300px;
+    /*Display as block and use auto margins to center*/
+    display: block;
+    margin: auto;
+}
+
+/*SIP container styles*/
+#SIP{
+    text-align: center;
+    /*Move video down away from div*/
+    margin-bottom: 50px;
+}
+
+/*SIP header 2 styles*/
+#SIPH2{
+    margin: auto;
+    padding-top: 90px;
+}
+
+/*SIP paragraph styles*/
+#SIPP{
+    margin: auto;
+    /*Move text away from images and iframe*/
+    margin-bottom: 15px;
+    /*Align paragraph text left*/
+    text-align: left;
+}
+
+/*Styles for wireframe image*/
+#Wireframe{
+    width: 60%;
+    height: 40%;
+    display: inline-block;
+    border: 4px darkcyan groove;
+    border-radius: 10px;
+    /*Center the image*/
+    display: block; 
+    margin: auto;
 }
