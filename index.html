@@ -10,12 +10,14 @@
     <script src="Index.js"></script>
 </head>
 <body>
+
     <!--Container for navigation menu-->
     <div id="pageNavigation">
-        <a href= "#aboutMe">About Me</a> <!--Insert href here-->
-        <a href="#projectsAndSkills">Projects & Skills</a> <!--Insert href here-->
-        <a href="#SIP">Senior Innovation Project</a> <!--Insert href here-->
+        <a href= "#aboutMe">About Me</a> 
+        <a href="#projectsAndSkills">Projects & Skills</a> 
+        <a href="SIP.html">Senior Innovation Project</a> 
     </div>
+
 <!--Container for personal introduction-->
     <div id="Intro">
         <h1>Hi, I'm Megan
@@ -23,18 +25,22 @@
             A Web Deveoper and a Lifelong Learner.
         </h1>
     </div>
-<!--Container for bio-->
+
+    <!--Container for bio-->
     <div id="aboutMe">
         <!--Header displaying title of page section-->
         <h2>About Me</h2>
         <!--Biography text-->
-        <p>Welcome! My name is Megan and I am a web developer from northeastern Michigan and a Computer Science student studying for my 
+        <p id="aboutP">Welcome! My name is Megan and I am a web developer from northeastern Michigan and a Computer Science student studying for my 
             bachelors degree online through the University of Advancing Technology located in Tempe, AZ. I have a passion for both business
             and technology, as I have also earned my Associate degree in Business Administration and Management in 2019. I enjoy working on 
             complex projects and collaborating within a team to help solve technical challenges.
         </p>
+         <!--Image for about me section-->
+         <img id="aboutImage" src="Images/AboutMeImage.JPG">
     </div>
-<!--Container for projects and skills section-->
+    
+    <!--Container for projects and skills section-->
     <div id="projectsAndSkills">
         <!--Header displaying title of page section-->
         <h2 id="projectsAndSkillsHeader">Projects & Skills</h2>
@@ -43,12 +49,16 @@
             C++ programming, and experience using Java and C#.
         </p>
     </div>
-<!--Container for SIP documentation and materials-->
-    <div id="SIP">
-        <!--Header displaying title of page section-->
-        <h2>Senior Innovation Project: 'WhiskerWise'</h2>
-        <p>'WhiskerWise' is a mobile application that allows pet owners to track both health and personal data connected to their pet.</p>
-    </div>
 
+    <!--Footer for contact info-->
+    <footer>
+        <h4>Resume: &nbsp;</h4>
+        <a id="resume" href="/Resume/Boyer_Megan_Resume.pdf" download="Boyer, Megan Resume">Download Resume</a>
+        <h4>Contact: &nbsp;</h4>
+        <a id="contact" href="mailto: Megan.Boyer1@Outlook.com"> Email &nbsp;</a>
+        <a id="contact" href="tel: 9892544409"> (989) 254-4409 &nbsp;</a>
+        <a id="contact" href="https://www.linkedin.com/in/megan-b-3605a01b8/" target="_blank">LinkedIn &nbsp;</a>
+        <a id="contact" href="https://github.com/MeganMB197674" target="_blank"> &nbsp; GitHub</a>
+    </footer>
 </body>
 </html>
